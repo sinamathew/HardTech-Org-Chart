@@ -104,8 +104,8 @@ graph TD;
     C --> G[VP of Product Development]
     C --> H[VP of Engineering]
 
-    G --> I[Product Manager (UI/UX)]
-    G --> J[Product Manager (CAD)]
+    G --> I[Product Manager - UI/UX]
+    G --> J[Product Manager - CAD]
 
     I --> K[UI/UX Designer]
     I --> L[User Research Specialist]
@@ -113,8 +113,8 @@ graph TD;
     J --> M[Hardware Design Engineer]
     J --> N[PCB Design Engineer]
 
-    H --> O[Hardware Engineering Manager]
-    H --> P[Software Engineering Manager]
+    H --> O[Engineering Manager - Hardware]
+    H --> P[Engineering Manager - Software]
 
     O --> Q[Mechanical Engineer]
     O --> R[Electronics Engineer]
