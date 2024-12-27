@@ -94,7 +94,11 @@
 ```mermaid
 graph TD;
 
-    A[Board of Directors] --> B[CEO]
+    A[Board of Directors]
+    
+    A -->C[CTO]
+    A --> B[CEO]
+    A -->D[COO]
 
     B --> C[CTO]
     B --> E[Executive Assistant]
