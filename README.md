@@ -90,7 +90,10 @@
           - Manages employee engagement and conflict resolution.
 
 
+
+```mermaid
 graph TD;
+
     A[Board of Directors] --> B[CEO]
     A --> C[CTO]
     A --> D[COO]
@@ -123,15 +126,15 @@ graph TD;
     D --> V[VP of Finance and Administration]
 
     U --> W[Operations Coordinator]
-    
-   U1[Sales & Marketing Manager]--> X[Sales Representatives]
-   U1--> Y[Marketing Specialist]
+    U --> X[Sales Representatives]
+    U --> Y[Marketing Specialist]
 
-   V--> Z[Accounting Manager]
-   V--> AA[HR Manager]
+    V --> Z[Accounting Manager]
+    V --> AA[HR Manager]
 
-   Z--> AB[Accounts Payable/Receivable Specialist]
-   Z--> AC[Financial Analyst]
+    Z --> AB[Accounts Payable/Receivable Specialist]
+    Z --> AC[Financial Analyst]
 
-   AA--> AD[Recruitment Specialist]
-   AA--> AE[Employee Relations Specialist]
+    AA --> AD[Recruitment Specialist]
+    AA --> AE[Employee Relations Specialist]
+```
