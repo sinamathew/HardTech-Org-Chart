@@ -28,32 +28,32 @@
   - Oversees product lifecycle from concept to launch.
     - **Product Manager (UI/UX)**
       - Manages user experience design and user research.
-        - UI/UX Designer
+        - UI Designer
           - Designs user interfaces for products.
-        - User Research Specialist
+        - UX Researcher
           - Conducts research to inform design decisions.
     
     - **Product Manager (CAD)**
       - Oversees hardware design and PCB development.
-        - Hardware Design Engineer
+        - Design Engineer (3D)
           - Designs hardware components using CAD software.
-        - PCB Design Engineer
+        - Design Engineer (PCB)
           - Develops printed circuit board layouts.
 
 - **VP of Engineering**
   - Leads engineering teams in developing innovative solutions.
-    - **Hardware Engineering Manager**
+    - **Engineering Manager (Hardware)**
       - Oversees hardware engineering efforts.
-        - Mechanical Engineer
+        - Hardware Engineer (Mechanics)
           - Designs mechanical systems for products.
-        - Electronics Engineer
+        - Hardware Engineer (Electronics)
           - Develops electronic components and systems.
     
-    - **Software Engineering Manager**
+    - **Engineering Manager (Software)**
       - Leads software development for robotic systems.
-        - Systems Software Engineer
+        - Software Engineer (Systems)
           - Develops system-level software for robotics.
-        - Application Software Engineer
+        - Software Engineer (Application)
           - Creates application-level software for user interaction.
 
 ### Operations and Finance
@@ -95,39 +95,46 @@
 graph TD;
 
     A[Board of Directors] --> B[CEO]
-    A --> C[CTO]
-    A --> D[COO]
 
+    B --> C[CTO]
     B --> E[Executive Assistant]
     B --> F[Legal Advisor]
+    B --> D[COO]
 
     C --> G[VP of Product Development]
+    C --> AJ[Technical Project Manager]
     C --> H[VP of Engineering]
 
     G --> I[Product Manager - UI/UX]
     G --> J[Product Manager - CAD]
 
-    I --> K[UI/UX Designer]
-    I --> L[User Research Specialist]
+    I --> K[UI Designer]
+    I --> L[UX Researcher]
 
-    J --> M[Hardware Design Engineer]
-    J --> N[PCB Design Engineer]
+    J --> M[Design Engineer - 3D]
+    J --> N[Design Engineer - PCB]
 
     H --> O[Engineering Manager - Hardware]
     H --> P[Engineering Manager - Software]
 
-    O --> Q[Mechanical Engineer]
-    O --> R[Electronics Engineer]
+    O --> Q[Hardware Engineer - Mechanics]
+    O --> R[Hardware Engineer - Electronics]
 
-    P --> S[Systems Software Engineer]
-    P --> T[Application Software Engineer]
+    P --> S[Software Engineer - Systems]
+    P --> T[Software Engineer - Application]
 
     D --> U[VP of Operations and Sales]
+    D --> AK[Opreations Coordinator]
     D --> V[VP of Finance and Administration]
 
-    U --> W[Operations Coordinator]
-    U --> X[Sales Representatives]
-    U --> Y[Marketing Specialist]
+    U --> X[Operation Manager]
+    U --> Y[Sale/Marketing Manager]
+
+    X --> AF[Manufacturing Supervisor]
+    X --> AG[Supply Chain Coordinator]
+
+    Y --> AH[Sales Representative]
+    Y --> AI[Marketing Specialist]
 
     V --> Z[Accounting Manager]
     V --> AA[HR Manager]
